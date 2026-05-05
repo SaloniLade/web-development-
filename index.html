@@ -1,0 +1,173 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment Dashboard</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a0f1c;
+    color: white;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    border-bottom: 2px solid #00f7ff;
+}
+
+header h1 {
+    margin: 0;
+    color: #00f7ff;
+}
+
+/* GRID */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 25px;
+}
+
+/* CARD */
+.card {
+    background: #111827;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #1f2937;
+    transition: 0.3s;
+    position: relative;
+}
+
+/* Glow hover */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #00f7ff;
+}
+
+/* TITLE */
+.card h3 {
+    margin-bottom: 10px;
+}
+
+/* TYPE TAG */
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.html { background: #00f7ff; color: black; }
+.css { background: #ff00aa; }
+.xml { background: #00ff9d; color: black; }
+
+/* BUTTONS */
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.html-btn { background: #00f7ff; color: black; }
+.css-btn { background: #ff00aa; }
+.xml-btn { background: #00ff9d; color: black; }
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🚀 Assignment Portal Dashboard</h1>
+</header>
+
+<div class="container">
+
+<!-- 1–7 HTML -->
+<div class="card"><h3>Assignment 1</h3><span class="tag html">HTML</span><div class="btn-group"><a href="Exp2.html" class="btn html-btn" target="_blank">View</a></div></div>
+<div class="card"><h3>Assignment 2</h3><span class="tag html">HTML</span><div class="btn-group"><a href="Exp3.html" class="btn html-btn" target="_blank">View</a></div></div>
+<div class="card"><h3>Assignment 3</h3><span class="tag html">HTML</span><div class="btn-group"><a href="Exp4.html" class="btn html-btn" target="_blank">View</a></div></div>
+<div class="card"><h3>Assignment 4</h3><span class="tag html">HTML</span><div class="btn-group"><a href="Exp5.html" class="btn html-btn" target="_blank">View</a></div></div>
+<div class="card"><h3>Assignment 5</h3><span class="tag html">HTML</span><div class="btn-group"><a href="Exp6.html" class="btn html-btn" target="_blank">View</a></div></div>
+<div class="card"><h3>Assignment 6</h3><span class="tag html">HTML</span><div class="btn-group"><a href="Exp7_Project/index.html" class="btn html-btn" target="_blank">View</a></div></div>
+<div class="card"><h3>Assignment 7</h3><span class="tag html">HTML</span><div class="btn-group"><a href="Exp7_Project/index.html" class="btn html-btn" target="_blank">View</a></div></div>
+
+<!-- 8–10 HTML + CSS -->
+<div class="card">
+<h3>Assignment 8</h3>
+<span class="tag css">HTML + CSS</span>
+<div class="btn-group">
+<a href="Exp8/Exp8.html" class="btn html-btn" target="_blank">HTML</a>
+<a href="Exp8/Exp8_1.html" class="btn css-btn" target="_blank">CSS</a>
+</div>
+</div>
+
+<div class="card">
+<h3>Assignment 9</h3>
+<span class="tag css">HTML + CSS</span>
+<div class="btn-group">
+<a href="Exp9/Exp9.html" class="btn html-btn" target="_blank">HTML</a>
+<a href="Exp9/Exp9_2.html" class="btn css-btn" target="_blank">CSS</a>
+</div>
+</div>
+
+<div class="card">
+<h3>Assignment 10</h3>
+<span class="tag css">HTML + CSS</span>
+<div class="btn-group">
+<a href="Exp10/Exp10_1.html" class="btn html-btn" target="_blank">HTML</a>
+<a href="Exp10/Exp10_2.html" class="btn css-btn" target="_blank">CSS</a>
+</div>
+</div>
+
+<!-- 11–13 XML -->
+<div class="card">
+<h3>Assignment 11</h3>
+<span class="tag xml">XML</span>
+<div class="btn-group">
+<a href="Exp11/Student.xml" class="btn xml-btn" target="_blank">View XML</a>
+</div>
+</div>
+
+<div class="card">
+<h3>Assignment 12</h3>
+<span class="tag xml">XML</span>
+<div class="btn-group">
+<a href="Exp.12/cat2_output.htm" class="btn xml-btn" target="_blank">View XML</a>
+</div>
+</div>
+
+<div class="card">
+<h3>Assignment 13</h3>
+<span class="tag xml">XML</span>
+<div class="btn-group">
+<a href="Exp13/student_output.htm" class="btn xml-btn" target="_blank">View XML</a>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
